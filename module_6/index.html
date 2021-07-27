@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+    <h4>To change the background color of the second column of a table having “n ” rows on click by using querySelector.
+    </h4>
+    <table border="2"> 
+        <tr>
+            
+            <th>
+                id
+            </th>
+            <th>
+                name
+            </th>
+            <th>
+                gender
+            </th>
+            <th>
+                email address
+            </th>
+            <th>
+                contact no
+            </th>
+        </tr>
+        <tr class="tr1">
+            
+            <td>
+                001
+            </td>
+            <td>
+                jessy
+            </td>
+            <td>
+                male
+            </td>
+            <td>
+            jessy@gmail.com
+            </td>
+            <td>
+                5845445555
+            </td>
+            <tr class="tr2">
+                
+                <td>
+                    002
+                </td>
+                <td>
+                    rhea
+                </td>
+                <td>
+                    female
+                </td>
+                <td>
+                    rhea@gmail.com
+                </td>
+                <td>
+                    9347384849
+                </td>
+                
+            </tr>
+            <tr class="tr3">
+               
+                <td>
+                    003
+                </td>
+                <td>
+                    walter
+                </td>
+                <td>
+                    male
+                </td>
+                <td>
+                    walter33@gmail.com
+                </td>
+                <td>
+                    4893355533
+                </td>
+                <tr class="tr4">
+                   
+                    <td>
+                        004
+                    </td>
+                    <td>
+                        sklyer
+                    </td>
+                    <td>
+                        female
+                    </td>
+                    <td>
+                        s373u@gmail.com
+                    </td>
+                    <td>
+                        9485859485
+                    </td>
+                </tr>
+            </tr>
+
+        </tr>
+        </table>
+        
+    
+    <script>
+        var a = document.querySelector("tr.tr2").addEventListener("click",function fun(x){
+            this.style.backgroundColor="red";
+        })//changing color with queryselector
+
+    </script>
+</body>
+</html>
