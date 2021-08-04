@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Loading</title>
+</head>
+<body>
+    <img  id="img" width="80%",height="auto" >
+    <script type="text/javascript">
+      var img =document.getElementById('img');
+      alert("The searched javascript icon is broken");
+      img.src= "https://images.idgesg.net/images/article/2019/04/google-shift-100794036-large.jpg";
+      img.onerror = function(){
+        img.src= "https://image.shutterstock.com/image-photo/test-screen-glitch-texture-background-600w-1913264107.jpg"
+      }
+    </script>
+</body>
+</html>
